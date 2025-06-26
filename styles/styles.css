@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Gamest1";
+    src: url(../fonts/joystix\ monospace.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body{
+    background-image: url(../storage/Room\ at\ dawn\ 2.gif);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.Container_principaltext--Titulo1{
+ font-family: "Gamest1";
+}
+
+.Container_principaltext--Titulo2{
+    font-family: "Gamest1" ;
+}
