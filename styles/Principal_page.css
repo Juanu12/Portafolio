@@ -3,6 +3,10 @@ margin: 0;
 padding: 0;
 }
 
+body{
+
+background-image: url(../storage/Ladscape_pixelart.jpeg) ;
+}
 
 
 
@@ -11,19 +15,54 @@ padding: 0;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    background-color: rgb(61, 161, 179);
+    background-color: rgb(132, 205, 218);
     width: 70vw;
     align-content: center;
-    height: 30vh;
+    height: 50vh;
     margin-left: 15%;
     margin-top: 20px;
     border: 1px solid;
+    border-radius: 20px;
 
 }
 
 .Principal_UpperpartContainer--name_Searchbar{
+margin-top: 1%;
+width: 60vw;
+height: 3vw;
+background-color: white;
+border-radius: 20px;
+font-size: 1vw;
+word-wrap: break-word;
+}
 
 
+.Principal__UpperpartContainer--Myprofilecontainer{
+
+    border: 1px solid black;
+    height: 60vh;
+    margin-right: 97%;
+    margin-top: 10%;
+    display: flex;
+    width: 40%;
+    background-color: white;
+    border-radius: 20px;
+    object-fit: cover;
+    
+}
+
+
+
+.Principal__UpperpartContainer--Myprofilecontainer img{
+
+padding-left: 5vw;    
+padding-top: 8vh;
 
     
+}
+
+.Myprofilecontainer--img{
+
+transform: scale(0.5);
+padding-top: 0px;
 }
