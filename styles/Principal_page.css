@@ -1,0 +1,29 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+
+
+.Principal_UpperpartContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(61, 161, 179);
+    width: 70vw;
+    align-content: center;
+    height: 30vh;
+    margin-left: 15%;
+    margin-top: 20px;
+    border: 1px solid;
+
+}
+
+.Principal_UpperpartContainer--name_Searchbar{
+
+
+
+    
+}
