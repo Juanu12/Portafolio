@@ -15,15 +15,15 @@ background-image: url(../storage/Ladscape_pixelart-1920x1080.png) ;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    background-color: rgb(132, 205, 218);
     width: 70vw;
     align-content: center;
     height: 50vh;
     margin-left: 15%;
     margin-top: 20px;
-    border: 1px solid;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 20px;
-      background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(30, 30, 40, 0.6);
+    backdrop-filter: blur(4px);
     
 }
 
@@ -41,22 +41,19 @@ word-wrap: break-word;
 
 
 .Principal__UpperpartContainer--Myprofilecontainer{
-
-    border: 1px solid black;
+ border: 1px solid rgba(255, 200, 150, 0.3);
     height: 200vh;
     margin-right: 97%;
     margin-top: 10%;
     display: flex;
     flex-direction: column;
     width: 20%;
-    background-color: rgba(96, 92, 92, 0.694);
+    background-color: rgba(50, 30, 20, 0.5);
     border-radius: 20px;
-    object-fit: cover;
-       gap: 20px;
+    gap: 20px;
     overflow: hidden;
-    
     transform: translateY(200px) scale(2.0);
-    z-index: -100;
+    backdrop-filter: blur(4px);
 }
 
 
@@ -72,7 +69,9 @@ word-wrap: break-word;
 }
 
 .name__SearchbarDescription{
-
+    
+    padding-left: 350px;
+    width: 30vw;
     color: white;
     word-wrap: break-word;
 }
@@ -90,6 +89,9 @@ word-wrap: break-word;
 }
 
 .My_img img {
-width: 5vw;
+width: 7vw;
+border: 2px solid rgba(255, 200, 150, 0.4);
+border-radius: 10px;
+
 
 }
