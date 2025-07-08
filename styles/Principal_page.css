@@ -6,6 +6,7 @@ padding: 0;
 body{
 
 background-image: url(../storage/Ladscape_pixelart-1920x1080.png) ;
+
 }
 
 
@@ -36,7 +37,10 @@ background-color: white;
 border-radius: 20px;
 font-size: 1vw;
 word-wrap: break-word;
-
+min-width: 200px;
+padding: 0 20px;
+    width: 90%;
+    max-width: 500px;
 }
 
 
@@ -54,6 +58,7 @@ word-wrap: break-word;
     overflow: hidden;
     transform: translateY(200px) scale(2.0);
     backdrop-filter: blur(4px);
+    
 }
 
 
@@ -94,4 +99,164 @@ border: 2px solid rgba(255, 200, 150, 0.4);
 border-radius: 10px;
 
 
+}
+
+.section-title {
+    color: white;
+    font-size: 3vh;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.service-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    width: 25%;
+    min-width: 200px;
+    text-align: center;
+}
+
+.service-card h3 {
+    color: rgba(255, 200, 150, 0.9);
+    font-size: 2vh;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: white;
+    font-size: 1.5vh;
+    line-height: 1.4;
+}
+
+.experience-timeline {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 25px;
+}
+
+.experience-item {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    backdrop-filter: blur(2px);
+}
+
+.experience-date {
+    background-color: rgba(255, 200, 150, 0.2);
+    color: rgba(255, 200, 150, 0.9);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-right: 20px;
+    min-width: 120px;
+    text-align: center;
+}
+
+.experience-content h3 {
+    color: rgba(255, 200, 150, 0.9);
+    margin-bottom: 5px;
+}
+
+.experience-content p {
+    color: white;
+    line-height: 1.4;
+}
+
+.links-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.link-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    backdrop-filter: blur(2px);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.link-card:hover {
+    transform: translateY(-5px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.link-card a {
+    text-decoration: none;
+    color: rgba(255, 200, 150, 0.9);
+    font-weight: bold;
+    font-size: 1.8vh;
+}
+
+.link-card p {
+    color: white;
+    font-size: 1.4vh;
+    margin-top: 10px;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.contact-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    min-width: 250px;
+    text-align: center;
+    backdrop-filter: blur(2px);
+}
+
+.contact-item h3 {
+    color: rgba(255, 200, 150, 0.9);
+    margin-bottom: 10px;
+    font-size: 2vh;
+}
+
+.contact-item p {
+    color: white;
+    font-size: 1.6vh;
+    line-height: 1.4;
+}
+
+.contact-item a {
+    color: rgba(255, 200, 150, 0.9);
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    color: white;
 }
