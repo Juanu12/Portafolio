@@ -5,8 +5,9 @@ padding: 0;
 
 body{
 
-background-image: url(../storage/Ladscape_pixelart-1920x1080.png) ;
-
+background-image: url(../storage/Change.jpg) ;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 
@@ -106,6 +107,7 @@ border-radius: 10px;
     font-size: 3vh;
     margin-bottom: 20px;
     text-align: center;
+    padding-top: 40vh;
 }
 
 .section-content {
@@ -113,7 +115,6 @@ border-radius: 10px;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    gap: 20px;
 }
 
 .services-grid {
@@ -260,3 +261,4 @@ border-radius: 10px;
 .contact-item a:hover {
     color: white;
 }
+
