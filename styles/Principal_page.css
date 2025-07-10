@@ -5,7 +5,7 @@ padding: 0;
 
 body{
 
-background-image: url(../storage/clouds.jpeg) ;
+background-image: url(../storage/fnal.jpeg) ;
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -61,7 +61,6 @@ background-size: cover;
             align-items: center;
             width: 70vw;
             align-content: center;
-            height: 50vh;
             margin-left: 15%;
             margin-top: 100px; 
             border: 1px solid rgba(255, 255, 255, 0.2);
@@ -78,7 +77,6 @@ background-size: cover;
             flex: 1 1 250px;
             width: 100%;
             max-width: 1300px;
-            height: auto;
             gap: 1rem;
             padding: 1rem;
 }
@@ -166,10 +164,10 @@ padding: 0 20px;
 
 
 .name__SearchbarPresentation{
-    color: white;
+    color: rgb(0, 0, 0);
     padding-top: 40px;
     font-size: 3vh;
-    text-decoration: underline #ff8c42;
+    text-decoration: underline 4px #ff8c42;
 
 }
 
@@ -177,10 +175,12 @@ padding: 0 20px;
     
 padding-left: 0; 
 width: 100%;
+padding: 0px;
 color: black; 
 word-wrap: break-word;
 line-height: 1.6;
 text-align: justify;
+border-radius: 40px;
 }
 
 .Window_icons img{
