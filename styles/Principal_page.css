@@ -167,6 +167,7 @@ padding-top: 10px;
     padding-top: 40px;
     font-size: 3vh;
     padding-left: 0px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .name__SearchbarPresentation :hover{
@@ -193,6 +194,7 @@ font-size: 1.6vw;
 
 .My_imgCarousel {
     width: 7vw;
+    height: 14vw;
     overflow: hidden;
     border-radius: 10px;
     border: 2px solid rgba(0, 0, 0, 0.4);
@@ -201,7 +203,7 @@ font-size: 1.6vw;
 
 .My_imgCarousel img {
     width: 7vw;
-    height: 20vw;
+    height: 14vw;
     object-fit: cover;
     flex-shrink: 0;
 
@@ -210,6 +212,7 @@ font-size: 1.6vw;
 
 
 .My_imgCarouseltrack{
+    width: calc(2 * 14vw);
 
     display: flex;  
     transition: transform 1.5s ease-in-out;
