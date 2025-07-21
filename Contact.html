@@ -8,7 +8,7 @@
     href="./storage/Portfolio.svg"
     type="image/x-icon">
   <title>Principal_page</title>
-  <link rel="stylesheet" href="./styles/Principal_page.css">
+  <link rel="stylesheet" href="./styles/Contact.css">
 </head>
 
 <body>
@@ -18,7 +18,6 @@
             <div class="nav-menu">
                 <div><a href="./Principal_page.html" class="nav-link active">Inicio</a></div>
                 <div><a href="./Servicios.html" class="nav-link">Servicios</a></div>
-                <div><a href="./Experience.html" class="nav-link">Experiencia</a></div>
                 <div><a href="./Contact.html" class="nav-link">Contacto</a></div>
                 <div><a href="./Misionandvision.html" class="nav-link">Misión y Visión</a></div>
                 <div><a href="./Presentation.html" class="nav-link">Presentación</a></div>
@@ -26,61 +25,64 @@
         </div>
 </nav>
 
+ <div class="contact-container">
+        <div class="form-section">
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-input" placeholder="NAME" required>
+                </div>
+                
+                <div class="form-group">
+                    <input type="email" class="form-input" placeholder="EMAIL" required>
+                </div>
+                
+                <div class="form-group">
+                    <textarea class="form-input message-input" placeholder="MESSAGE" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Enviar</button>
+            </form>
+        </div>
 
+        <div class="info-section">
+            <div class="contact-info">
+                <div class="info-item">
+                    <div class="info-icon">📍</div>
+                    <span>City, State</span>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-icon">📞</div>
+                    <span>(212) 555-2368</span>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-icon">✉</div>
+                    <span>hitmeup@gmail.com</span>
+                </div>
+            </div>
 
+            <div class="divider"></div>
 
-<div class="Principal_UpperpartContainer">
+            <div class="social-icons">
+                <a href="#" class="social-icon" >
+                    <span style="font-size: 20px;">github</span>
+                </a>
+                <a href="#" class="social-icon" >
+                    <span style="font-size: 20px;">email</span>
+                </a>
+                <a href="#" class="social-icon" title="Twitter">
+                    <span style="font-size: 20px;">linkedin</span>
+                </a>
+            </div>
 
-<div class="Principal_UpperpartContainer--name_Searchbar">
-
-<div class="name__SearchbarText">
-  <h1> Juan Fernando Umaña</h1>
-</div>
-
-<div class="name__SearchbarPresentation">
-  <h1> Sobre Mi </h1>
-</div>
-<br>
-<br>
-<br>
-<div class="name__SearchbarDescription">
-        <p>Desarrollador de software con conocimientos en Python, HTML, JavaScript y MySQL. Ha
-          participando en tres proyectos, incluyendo desarrollo web, desarrollo web con javascrip y
-          apis, Se adapta con facilidad a metodologías ágiles como Scrum. Responsable, proactivo
-          ,enfoque en la resolución de problemas, Comprometido con el aprendizaje continuo y el
-          trabajo en equipo. </p>
-      </div>
-
-
-
-</div>
-
-
-<div class="Principal__UpperpartContainer--Myprofilecontainer">
-  <div class="Window_icons">
-  <div class="maximize-circle"></div>
-
-
-  </div>
-  <div class="My_imgCarousel"> 
-    <div class="My_imgCarouseltrack">
-    <img src="./storage/Myrealimg.jpg"> 
-    <img src="./storage/descarga.png" >
+            <div class="copyright">
+                © ALL OF THE RIGHTS RESERVED
+            </div>
+        </div>
     </div>
-  </div>
-
-  </div>
-
-
-<div class="Brandingpart-container">
-    <h3 class="Brandingpart-title">Mi Lema</h3>
-        <div class="Brandingpart-decoration"></div>
-             <p class="Brandingpart-text">"El sueño te impulsa, la constancia te fortalece y el código te representa."</p>
-         </div>
-     </div>
-</div>
 
 </body>
-<script src="./scripts/Principalpage.js"></script>
+<script src="./scripts/contact.js"></script>
 
 </html>
