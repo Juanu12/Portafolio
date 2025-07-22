@@ -63,19 +63,18 @@ background-size: cover;
 
    .contact-container {
             margin-top: 10vh;
-            padding: 5vh 5vw;
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 5vh;
-            min-height: 90vh;
+            min-height: 80vh;
+            min-width: 90%;
         }
 
         .section-title {
             font-size: 4vw;
             color: #000000;
             text-align: center;
-            margin-bottom: 3vh;
             text-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
         }
 
@@ -86,10 +85,18 @@ background-size: cover;
             border-radius: 12px;
             padding: 10px;
             width: 100%;
-            max-width: 900px;
+            max-width: 100px;
             display: flex;
-            gap: 60px;
-            margin-left: 500px;
+            margin-left: 100px;
+            
+            
+        }
+
+
+        .form-section{
+
+            width: 50vw;
+            margin-top: 40px;
         }
 
 
@@ -212,6 +219,15 @@ background-size: cover;
             margin: 30px 0;
         }
 
+
+
+
+        .form-section{
+
+            width: 50vw;
+        }
+
+
         @media (max-width: 768px) {
             .contact-container {
                 flex-direction: column;
@@ -219,3 +235,5 @@ background-size: cover;
                 padding: 30px;
             }
         }
+
+        
