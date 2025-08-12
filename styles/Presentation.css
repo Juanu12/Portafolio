@@ -1,7 +1,6 @@
   * {
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
     }
 
     @font-face {
@@ -10,7 +9,7 @@
     }
 
     body {
-  background-image: url(/storage/fnal.jpeg);
+  background-image: url(../storage/fnal.jpeg);
       background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
